@@ -1,0 +1,124 @@
+*
+{
+    font-family: sans-serif;
+}
+
+body
+{
+    background-color: #929fd1;
+}
+
+button
+{
+    width: 13vh;
+    height: 8vh;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    margin-bottom: -300px;
+}
+
+button:hover
+{
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+}
+
+#btn-long
+{
+    margin-right: 20px;
+}
+#btn-short
+{
+    margin-left: 20px;
+}
+
+h2
+{
+    text-align: center;
+    font-size: 160px;
+}
+
+
+.class-button
+{
+    text-align: center;
+}
+
+
+
+.button-start-time 
+{
+    margin-top: -100px;
+    width: 22vh;
+    display: none;
+}
+
+.button-clean-time 
+{
+    margin-top: -100px;
+    width: 22vh;
+    display: none;
+}
+
+#timer 
+{
+    font-size: 60px;
+}
+.button-down-group
+{
+    text-align: center;
+}
+
+.clean2
+{
+    display: none;
+}
+
+/*responsividade*/
+@media only screen and (max-width: 900px)
+{
+    #timer 
+    {
+        font-size: 40px;
+        margin-top: 140px;
+    }
+    
+    .button-clean-time
+    {
+        margin-top: 70px;
+    }
+}
+
+@media only screen and (max-width: 900px) and (orientation: landscape)
+{
+    .class-button button
+    {
+        width: 40vh;
+        height: 20vh;
+    }
+
+    #timer
+    {
+        margin-top: 70px;
+    }
+
+    .button-down-group button
+    {
+        width: 40vh;
+        height: 20vh;
+    }
+
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 700px) and (orientation: landscape)
+{
+    #countdown
+    {
+        margin-right: 35%;
+    }
+}
